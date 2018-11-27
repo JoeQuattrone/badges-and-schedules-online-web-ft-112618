@@ -18,9 +18,9 @@ def assign_rooms(attendees)
   new_array
 end
 
-def printer(attendee)
+def printer(attendees)
   binding.pry
-   batch_badge_creator(attendee).each do |attendee|
+   batch_badge_creator(attendees).each do |attendee|
      puts attendee
    end
 end
