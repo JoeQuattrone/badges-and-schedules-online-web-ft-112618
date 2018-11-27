@@ -4,5 +4,7 @@ def badge_maker(name)
 end
 
 def badge_creator(attendees)
-  
+  attendees.each do |attendee|
+    "Hello, my name is #{attendee}"
+  end
 end
