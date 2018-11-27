@@ -4,3 +4,5 @@ def badge_maker(name)
 end
 
 def badge_creator(attendees)
+  
+end
